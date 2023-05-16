@@ -1,0 +1,45 @@
+.containerdiv {
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .containerdiv h2 {
+    text-align: center;
+  }
+  
+  .form-group1 {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .button1 {
+    padding: 10px 20px;
+  }
+  .classgeneral{
+    display: flex;
+    padding: 20px;
+  }
+  .infosocie{
+    width: 50%;
+    padding: 80px;
+  }
+  .infocontact img{
+    width: 10%;
+  }.infocontact span{
+    font-size: 22px;
+    margin-left: 20px;
+  }
+  .infocontact{
+    padding: 20px;
+  }

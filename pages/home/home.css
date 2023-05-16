@@ -1,0 +1,95 @@
+.divbg{
+    background-color: grey;
+    background-repeat: no-repeat;
+    background-image: url("http://localhost/risouss/assets/home/bagroundimage.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    visibility: inherit;
+    z-index: 20;
+}
+.divtext{
+    
+    color: white; text-align: center;
+    border: 1px solid rgb(209, 212, 209);  
+    padding: 5%;
+    font-size: 38px;font-family: Arial, Helvetica, sans-serif;  border-radius: 0px 15px;margin: 0px;
+    visibility: inherit;
+      font-style: normal;
+ 
+    border-width: 5px;
+    border-style: none;
+    border-color: rgb(54, 54, 54);
+   
+    letter-spacing: 0px;
+    font-weight: 700;
+ 
+   
+  
+    
+/**/
+}
+.div2{
+    background-color: #44a12b;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin-top: 20px;
+    border-width: 0px 0px 0px 0px;
+    border-color: #eae9e9;
+    border-style: solid;
+}
+.div2 h1{
+  text-align: center;
+}
+.img1 {
+  padding: 5px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.div3 {
+  display: flex;
+  align-items: center;
+  padding: 80px;
+  font-size: 20px;
+}
+
+span {
+  width: 100%;
+  flex-grow: 1;
+  font-size: 25px;
+}
+
+.div4 {
+  width: 70%;
+  margin-right: 20px;
+}
+
+  .company-info{ 
+    font-size: 20px;
+   padding:60px;
+   color: white;
+    background-color: rgb(44, 42, 42);
+    
+  }
+  .company-info h2{
+    padding-bottom: 40px;
+
+
+   }
+   .garden-button{
+    display: inline-block;
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 2px dashed transparent;
+    border-radius: 64px;
+    transition: all .5s ease;
+    background-color: white;
+    margin-top: 40px;
+   margin-bottom: 20px;
+  
+   }
