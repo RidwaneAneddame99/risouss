@@ -1,13 +1,25 @@
-<?php
-
-?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Your Website Title</title>
-  <!-- Add your CSS and JavaScript files here -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-  <!-- Add your HTML content here -->
+    <!-- index.php -->
+<div id="included-content"></div>
+<!-- index.html -->
+<script>
+    fetch('index.php')
+      .then(response => response.text())
+      .then(content => {
+        document.getElementById('included-content').innerHTML = content;
+      })
+      .catch(error => {
+        console.error('Error fetching PHP content:', error);
+      });
+  </script>
+  
 </body>
 </html>
